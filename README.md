@@ -752,7 +752,7 @@ If you are updating from an older version, you should review the announcements i
 - Check out a tagged release
 
   ```shell
-  git checkout v9.4.1
+  git checkout v11.0.0
   ```
 
 - Get the newest Docker images
@@ -784,7 +784,7 @@ Edit your `.env` file and change `TAGGED_VERSION` from `latest` to a specific ta
 (it **must** match the release tag on Docker hub):
 
 ```Dotenv
-TAGGED_VERSION=9.4.1
+TAGGED_VERSION=11.0.0
 ```
 
 Then restart
